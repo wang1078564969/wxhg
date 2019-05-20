@@ -1,0 +1,64 @@
+.user{
+    height: 200rpx;
+    background:#fff;
+    border-radius: 20rpx;
+    width: 690rpx;
+    margin: 40rpx auto;
+    display: flex;
+    align-items: center;
+}
+.user-img{
+    margin: 0 30rpx;
+    width: 135rpx;
+    height: 135rpx;
+    border-radius: 50%;
+    background: #fafafa
+}
+.user-img image{
+    margin: 5rpx; 
+    width:120rpx;
+    height: 120rpx;
+}
+ .user-name .name{
+    font-size: 32rpx;
+    font-weight:bold; 
+ }
+ .user-name .post{
+    font-size:24rpx; 
+ }
+ .user button{
+    font-size:28rpx; 
+    line-height: 80rpx;
+    color: #fff;
+    margin-left:245rpx; 
+    border-radius:50rpx;
+    width: 120rpx;
+    height: 80rpx;
+    background: #3fc069;
+ }
+ .body{
+    background:#fff;
+    border-radius: 20rpx;
+    width: 690rpx;
+    margin: 40rpx auto;
+ }
+ .body .my{
+    font-size:30rpx; 
+    display: flex;
+    align-items: center;
+    width: 630rpx;
+    height: 135rpx;
+    border-bottom: 1px solid #fafafa
+ }
+ .my image:last-child{
+    position: relative;
+    left:420rpx;
+    top:-2rpx;
+    height: 12rpx;
+    width: 30rpx;
+ }
+ .my image:first-child{
+    margin: 0 30rpx; 
+    width: 30rpx;
+    height: 30rpx;
+ }

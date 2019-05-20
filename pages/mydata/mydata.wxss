@@ -1,0 +1,112 @@
+page{
+      background: rgb(250, 250, 250)
+}
+.user{
+    height: 200rpx;
+    background:#fff;
+    border-radius: 20rpx;
+    width: 690rpx;
+    margin: 40rpx auto 0;
+    display: flex;
+    align-items: center;
+}
+.user-img{
+    margin: 0 30rpx;
+    width: 135rpx;
+    height: 135rpx;
+    border-radius: 50%;
+    background: #fafafa
+}
+.user-img image{
+    margin: 5rpx; 
+    width:120rpx;
+    height: 120rpx;
+}
+ .user-name .name{
+    font-size: 32rpx;
+    font-weight:bold; 
+ }
+ .user-name .post{
+    font-size:24rpx; 
+ }
+ .title{
+     font-size: 22rpx;
+     margin-left: 60rpx;
+     line-height: 100rpx;
+     color: #666;
+ }
+ .body{
+    background:#fff;
+    border-radius: 20rpx;
+    width: 690rpx;
+    margin: 0 auto;
+ }
+ .li{
+    font-size: 24rpx;
+    line-height: 120rpx;
+    height: 120rpx;
+    margin: 0 30rpx;
+    border-top:1rpx solid #fafafa;
+ }
+.li .right{
+    float: right;
+}
+.num image,.zz image{
+    position: relative;
+    top:-3rpx;
+    margin-left:10rpx; 
+    width: 30rpx;
+    height: 12rpx;
+}
+.num .right,.zz .right{
+     color: #666;
+}
+.model .input{
+  font-size: 30rpx;
+  position: fixed;
+  top: 600rpx;
+  left: 150rpx;
+  width: 450rpx;
+  background: #fff;
+  border: #eee 1rpx solid;
+  border-radius: 20rpx;
+}
+.input>view{
+  margin: 10rpx 0 20rpx;
+  text-align: center;
+}
+.input input{
+  margin:0 auto;
+  width: 380rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  border-radius: 10rpx;
+  border: 1rpx solid #eee;
+  background: #fff;
+}
+.button{
+  display: flex;
+  justify-content:center;
+}
+.button>view{
+  width: 140rpx;
+  height: 60rpx;
+  margin-top: 20rpx;
+  border-radius: 50rpx;
+  color:#fff;
+  line-height: 60rpx;
+}
+.button :first-child{
+  margin-right: 20rpx;
+  background: red;
+}
+.button :last-child{
+  background: #3fc069;
+}
+.mo{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

@@ -1,0 +1,191 @@
+<view class='user'>
+    <view class="user-img">
+        <image src=''></image>
+    </view>
+    <view class='user-name'>
+        <view class='name'>王小二</view>
+        <view class='post'>刺绣师</view>
+    </view>
+    <view class='button' bindtap='pop'>2019.2
+      <image src="/pages/img/mine_attendance_icon_monthselection_expand.png"/>
+    </view>
+    <view class='pop' wx:if='{{pop}}' bindtap='pop'>
+        <view class="moble" catchtap='popout'></view>
+        <view catchtap='t'>2019.1</view>
+        <view>2018.12</view>
+        <view>2018.11</view>
+        <view>2018.10</view>
+    </view>
+</view>
+<!-- 日历 -->
+<view class='title'>考勤日历</view>
+<view class="calend">
+    <calendar weeks-type="cn" calendar-style="calendar" />
+</view>
+<view class='title'>考勤记录</view>
+ <view class="body">
+      <view class="{{open1 ? 'cont' : 'content'}}">
+          <view class="li" bindtap='open1'>
+              <text class="left">出勤天数</text>
+              <view class="right">
+                  17.0天
+                  <image src="{{open1 ? '/pages/img/mine_attendance_icon_monthselection_collapse.png' : '/pages/img/mine_attendance_icon_expand.png'}}" />
+              </view>
+          </view>
+      </view>
+      <view wx:if='{{open1}}' class='lr one'>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+      </view>
+      <!-- 出勤 -->
+       <view class="{{open2 ? 'cont' : 'content'}}">
+          <view class="li" bindtap='open2'>
+              <text class="left">出勤班次</text>
+              <view class="right">
+                  共20次
+                  <image src="{{open2 ? '/pages/img/mine_attendance_icon_monthselection_collapse.png' : '/pages/img/mine_attendance_icon_expand.png'}}" />
+              </view>
+          </view>
+        </view>
+      <view wx:if='{{open2}}' class='lr two'>
+        <view class='and'>
+        班次：全员统一规则
+        <view>出勤： 20次</view>
+        </view>
+      </view>
+      <!-- 休息 -->
+          <view class="{{open3 ? 'cont' : 'content'}}">
+            <view class="li" bindtap='open3'>
+              <text class="left">休息天数</text>
+              <view class="right">
+                  8.0天
+                  <image src="{{open3 ? '/pages/img/mine_attendance_icon_monthselection_collapse.png' : '/pages/img/mine_attendance_icon_expand.png'}}" />
+              </view>
+            </view>
+        </view>
+      <view wx:if='{{open3}}' class='lr three'>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+      </view>
+      <!-- 迟到 -->
+        <view class="{{open4 ? 'cont' : 'content'}}">
+          <view class="li" bindtap='open4'>
+              <text class="left">迟到</text>
+              <view class="right {{true?'red':'green'}}">
+                  2次 6分钟
+                  <image src="{{open4 ? '/pages/img/mine_attendance_icon_monthselection_collapse.png' : '/pages/img/mine_attendance_icon_expand.png'}}" />
+              </view>
+          </view>
+        </view>
+      <view wx:if='{{open4}}' class='lr four'>
+        <view class='and'>
+          2019-03-14(星期四) 09:00
+          <view>上班迟到2分钟</view>
+        </view>
+        <view class='and'>
+          2019-03-14(星期四) 09:00
+          <view>上班迟到2分钟</view>
+        </view>
+      </view>
+      <!-- 早退 -->
+        <view class="{{open5 ? 'cont' : 'content'}}">
+            <view class="li" bindtap='open5'>
+              <text class="left">早退</text>
+              <view class="right {{true?'red':'green'}}">
+                  1次 23分钟
+                  <image src="{{open5 ? '/pages/img/mine_attendance_icon_monthselection_collapse.png' : '/pages/img/mine_attendance_icon_expand.png'}}" />
+              </view>
+          </view>
+        </view>
+      <view wx:if='{{open5}}' class='lr five'>
+        <view class='and'>
+          2019-03-14(星期四) 09:00
+          <view>上班迟到2分钟</view>
+        </view>
+        <view class='and'>
+          2019-03-14(星期四) 09:00
+          <view>上班迟到2分钟</view>
+        </view>
+      </view>
+      <!-- 缺卡 -->
+        <view class="{{open6 ? 'cont' : 'content'}}">
+          <view class="li" bindtap='open6'>
+              <text class="left">缺卡</text>
+              <view class="right {{true?'red':'green'}}">
+                  1次
+                  <image src="{{open6 ? '/pages/img/mine_attendance_icon_monthselection_collapse.png' : '/pages/img/mine_attendance_icon_expand.png'}}" />
+              </view>
+          </view>
+        </view>
+      <view wx:if='{{open6}}' class='lr six'>
+        <view>2019-03-07(星期二) 09:00</view>
+      </view>
+      <!-- 旷工 -->
+        <view class="{{open7 ? 'cont' : 'content'}}">
+          <view class="li" bindtap='open7'>
+              <text class="left">旷工</text>
+              <view class="right {{ true?'red':'green'}}">
+                  2天
+                  <image src="{{open7 ? '/pages/img/mine_attendance_icon_monthselection_collapse.png' : '/pages/img/mine_attendance_icon_expand.png'}}" />
+              </view>
+          </view>
+        </view>
+      <view wx:if='{{open7}}' class='lr seven'>
+        <view>2019-03-07(星期二)</view>
+        <view>2019-03-07(星期二)</view>
+      </view>
+      <!-- 外勤 -->
+        <view class="{{open8 ? 'cont' : 'content'}}">
+          <view class="li" bindtap='open8'>
+              <text class="left">外勤</text>
+              <view class="right">
+                  1.0天
+                  <image src="{{open8 ? '/pages/img/mine_attendance_icon_monthselection_collapse.png' : '/pages/img/mine_attendance_icon_expand.png'}}" />
+              </view>
+          </view>
+        </view>
+      <view wx:if='{{open8}}' class='lr eight'>
+        <view>2019-03-07(星期二)14:25-16:36</view>
+      </view>
+      <!-- 加班 -->
+        <view class="{{open9 ? 'cont' : 'content'}}">
+          <view class="li" bindtap='open9'>
+              <text class="left">加班</text>
+              <view class="right">
+                  9.0小时
+                  <image src="{{open9 ? '/pages/img/mine_attendance_icon_monthselection_collapse.png' : '/pages/img/mine_attendance_icon_expand.png'}}" />
+              </view>
+          </view>
+        </view>
+      <view wx:if='{{open9}}' class='lr nine'>
+        <view class='and'>
+          2.63小时
+            <view> 2019-03-14 18:30-2019-0314 21:10</view>
+        </view>
+        <view class='and'>
+          2.63小时
+            <view> 2019-03-14 18:30-2019-0314 21:10</view>
+        </view>
+        <view class='and'>
+          2.63小时
+            <view> 2019-03-14 18:30-2019-0314 21:10</view>
+        </view>
+      </view>
+  </view>
+<return/>

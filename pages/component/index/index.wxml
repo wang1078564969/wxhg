@@ -1,0 +1,42 @@
+<view class="component_my_wrapper">
+  <view class="title">生产单列表</view>
+  <view class="li" bindtap='order'>
+    <image src='/pages/img/1.png' />
+    <view class="text">
+      <text class="name">月色染</text>
+      <text class="kind">（绣花）</text>
+      <text class="status w {{}}">已完成</text>
+      <view class="num">
+        <view class="numb">生产单号: 132456778</view>
+        <view class="jtime">接单日期: 2019-03-15 15:12:35</view>
+        <view class="wtime">完成时间: 2019-03-15 15:12:35</view>
+      </view>
+    </view>
+  </view>
+    <view class="li">
+    <image src='/pages/img/1.png' />
+    <view class="text">
+      <text class="name">月色染</text>
+      <text class="kind">（绣花）</text>
+      <text class="status z {{}}">制作中</text>
+      <view class="num">
+        <view class="numb">生产单号: 132456778</view>
+        <view class="jtime">接单日期: 2019-03-15 15:12:35</view>
+        <view class="wtime">完成时间: 2019-03-15 15:12:35</view>
+      </view>
+    </view>
+  </view>
+    <view class="li">
+    <image src='/pages/img/1.png' />
+    <view class="text">
+      <text class="name">月色染</text>
+      <text class="kind">（绣花）</text>
+      <text class="status y {{}}">异常</text>
+      <view class="num">
+        <view class="numb">生产单号: 132456778</view>
+        <view class="jtime">接单日期: 2019-03-15 15:12:35</view>
+        <view class="wtime">完成时间: 2019-03-15 15:12:35</view>
+      </view>
+    </view>
+  </view>
+</view>

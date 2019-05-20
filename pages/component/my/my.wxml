@@ -1,0 +1,23 @@
+<view class="component_my_wrapper">
+  <view class='user'>
+    <view class="user-img">
+        <image src=''></image></view>
+    <view class='user-name'>
+      <view class='name'>王小二</view>
+      <view class='post'>刺绣师</view>
+    </view>
+    <button  bindtap="edit">编辑</button>
+  </view>
+  <view class="body">
+    <view class="my salary" bindtap="salary">
+      <image src="/pages/img/mine_icon_wage.png"/>
+      我的工资
+      <image src="/pages/img/mine_icon_details.png"/>
+    </view>
+    <view class="my check" bindtap="check">
+      <image src="/pages/img/mine_icon_attendance.png"/>
+      考勤记录
+      <image src="/pages/img/mine_icon_details.png"/>
+    </view>
+  </view>
+</view>

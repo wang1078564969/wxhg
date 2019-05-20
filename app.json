@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/check/check",
+    "pages/mysalary/mtsalary",
+    "pages/mysalary/salary/salary",
+    "pages/order/order",
+    "pages/mydata/mydata"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "红馆旗袍ERP",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "plugins": {
+    "calendar": {
+      "version": "1.1.3",
+      "provider": "wx92c68dae5a8bb046"
+    }
+  },
+  "resizable": true,
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,9 @@
+.img>image{
+  position:fixed;
+  width: 120rpx;
+  height: 120rpx;
+  bottom:150rpx;
+}
+.img>image:first-child{
+  left:30rpx;
+}

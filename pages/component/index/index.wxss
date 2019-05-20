@@ -1,0 +1,51 @@
+.title{
+    width: 690rpx;
+    font-size: 37rpx;
+    padding-left:10rpx;
+    margin: 30rpx auto 15rpx auto ;
+}
+.li{
+    display: flex;
+    border-radius: 20rpx;
+    height: 200rpx;
+    width: 690rpx;
+    background: #fff;
+    margin: 0rpx auto 40rpx;
+}
+.li image{
+    width: 200rpx;
+    height: 200rpx;
+}
+.text{
+    margin: 20rpx 0 0 30rpx
+}
+.text .name{
+    font-size: 30rpx;
+    line-height: 60rpx;
+}
+.text .kind{
+    font-size:22rpx;
+}
+.text .status{
+    float: right;
+    position: relative;
+    left: 160rpx;
+    font-size:24rpx;
+    line-height: 60rpx;
+}
+.text .num{
+    line-height: 30rpx;
+    font-size: 20rpx;
+}
+.w{
+    color: #3fc069;
+}
+.y{
+    color: #c03f3f;
+}
+.z{
+    color:#4493c1
+}
+.component_my_wrapper{
+  margin-bottom:140rpx;
+}

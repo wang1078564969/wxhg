@@ -1,0 +1,92 @@
+<view >
+<view class="header">
+    <view class="one">5674.21</view>
+    <view class="two">上月薪资(元)</view>
+    <view class="foot">
+        <view>
+            <view>2562.21</view>
+            <view>计件</view>
+        </view>
+        <view>
+            <view>2000.12</view>
+            <view>提成</view>
+        </view>
+        <view>
+            <view>1000</view>
+            <view>奖金</view>
+        </view>
+    </view>
+</view>
+  <view class="body">
+    <view class="title">
+        <text>2019年</text>
+        <view class="time" catchtap='pop'>
+            本年
+            <image src="/pages/img/mine_attendance_icon_expand.png" />
+        </view>
+        <view class='pop' wx:if='{{pop}}' bindtap='pop'>
+          <view class="moble" catchtap='popout'></view>
+          <view>2018</view>
+          <view>2017</view>
+        </view>
+    </view>
+    <view class="content">
+        <view class="li" bindtap="salary">
+            <text class="left">2月薪资</text>
+            <view class="right">
+                2345.34
+                <image src="/pages/img/mysalary_icon_details.png" />
+        </view>
+        </view>
+          <view class="li">
+              <text class="left">1月薪资</text>
+              <view class="right">
+                  2345.34
+                  <image src="/pages/img/mysalary_icon_details.png" />
+              </view>
+          </view>
+      </view>
+  </view>
+    <view class="body">
+      <view class="title">
+          <text>2018年</text>
+      </view>
+      <view class="content">
+          <view class="li">
+              <text class="left">12月薪资</text>
+              <view class="right">
+                  2345.34
+                  <image src="/pages/img/mysalary_icon_details.png" />
+              </view>
+          </view>
+          <view class="li">
+              <text class="left">11月薪资</text>
+              <view class="right">
+                  2345.34
+                  <image src="/pages/img/mysalary_icon_details.png" />
+              </view>
+          </view>
+                    <view class="li">
+              <text class="left">10月薪资</text>
+              <view class="right">
+                  2345.34
+                  <image src="/pages/img/mysalary_icon_details.png" />
+              </view>
+          </view>
+                    <view class="li">
+              <text class="left">9月薪资</text>
+              <view class="right">
+                  2345.34
+                  <image src="/pages/img/mysalary_icon_details.png" />
+              </view>
+          </view>
+                    <view class="li">
+              <text class="left">8月薪资</text>
+              <view class="right">
+                  2345.34
+                  <image src="/pages/img/mysalary_icon_details.png" />
+              </view>
+          </view>
+      </view>
+  </view>
+  <return/></view>

@@ -1,0 +1,49 @@
+ <view class='user'>
+      <view class="user-img">
+          <image src=''></image>
+      </view>
+      <view class='user-name'>
+          <view class='name'>王小二</view>
+          <view class='post'>刺绣师</view>
+      </view>
+  </view>
+  <text class="title">个人资料</text>
+  <view class="body">
+            <view class="li name">
+                <text class="left">姓名</text>
+                <text class="right">王小二</text>
+            </view>
+            <view class="li bm">
+                <text class="left">部门</text>
+                <text class="right">技术部</text>
+            </view>
+            <view class="li zw">
+                <text class="left">职位</text>
+                <text class="right">刺绣师</text>
+            </view>
+            <view class="li num" catchtap='model1'>
+                <text class="left">手机号</text>
+                <view class="right">12312341234
+                    <image src="/pages/img/mysalary_icon_details.png" />
+                </view> 
+            </view>
+            <view class="li zz" catchtap='model2'>
+                <text class="left">住址</text>
+                <view class="right">雁塔区高新一路
+                    <image src="/pages/img/mysalary_icon_details.png" />
+                </view>
+            </view>
+  </view>
+  <view class='model' wx:if="{{model}}">
+    <view class='mo' catchtap='modelout'></view>
+    <view class='input'>
+      <view>{{title}}</view>
+        <input value="women"></input>
+        <view class='button'>
+          <view catchtap='modelout'>取消</view>
+          <view>确认</view>
+        </view>
+    </view>
+    
+  </view>
+  <return/>

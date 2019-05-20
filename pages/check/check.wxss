@@ -1,0 +1,149 @@
+page{
+      background: rgb(250, 250, 250)
+}
+.user{
+   position:relative;
+    height: 200rpx;
+    background:#fff;
+    border-radius: 20rpx;
+    width: 690rpx;
+    margin: 40rpx auto;
+    display: flex;
+    align-items: center;
+}
+.user-img{
+    margin: 0 30rpx;
+    width: 135rpx;
+    height: 135rpx;
+    border-radius: 50%;
+    background: #fafafa
+}
+.user-img image{
+    margin: 5rpx; 
+    width:120rpx;
+    height: 120rpx;
+}
+ .user-name .name{
+    font-size: 32rpx;
+    font-weight:bold; 
+ }
+ .user-name .post{
+    font-size:24rpx; 
+ }
+ .user .button{
+    font-size:20rpx;
+    line-height: 50rpx;
+    color: #fff;
+    margin-left:200rpx; 
+    border-radius:50rpx;
+    width: 160rpx;
+    height: 50rpx;
+    background: #3fc069;
+    text-align: center;
+ }
+ .button image{
+     width:20rpx;
+     height: 12rpx;
+ }
+ .title{
+   width: 690rpx;
+   padding-left: 30rpx;
+   color: #666;
+   font-size: 20rpx;
+   line-height: 20rpx;
+   margin: 40rpx auto 20rpx auto
+ }
+ .calend{
+    border-radius: 20rpx;
+    background:#fff;
+    width: 690rpx;
+    margin: 0rpx auto;
+ }
+ .calendar{
+    padding: 30rpx;
+ }
+ /* .calendar>view>view>view>view::before{
+   content: "";
+   width: 10rpx;
+   height: 10rpx;
+   border-radius: 50%;
+   background: red;
+ } */
+.body{
+   font-size: 24rpx;
+   overflow: hidden;
+   width: 690rpx;
+   margin: 0 auto;
+   border-radius: 20rpx;
+   margin-bottom: 30rpx;
+}
+ .content{
+   background:#fff;
+ }
+.cont{
+    background:#fff;
+    border-radius: 20rpx;
+ }
+ .li{
+    font-size: 26rpx;
+    line-height: 120rpx;
+    height: 120rpx;
+    margin: 0 30rpx;
+    border-top:1rpx solid #fafafa;
+ }
+.li .right{
+    float: right;
+}
+.li image{
+    position: relative;
+    top:-2rpx;
+    margin-left:10rpx; 
+    width: 22rpx;
+    height: 12rpx;
+}
+.li .right{
+    font-family: DIN Condensed;
+    font-weight: bold;
+}
+.lr{
+   width: 630rpx;
+   margin: 40rpx auto;
+}
+.lr>view{
+    margin: 40rpx 0
+}
+.and>view{
+   font-size:18rpx;
+   color:#666;
+}
+.red{
+   color: #c03f3f
+}
+.green{
+   color:#3fc069;
+}
+ .pop{
+   border: 1rpx solid #fafafa;
+   z-index: 100;
+   position: absolute;
+   right: 50rpx;
+   top:129rpx;
+   border-radius: 20rpx;
+   width: 160rpx;
+   background: #fff;
+ }
+ .pop>view{
+   border-bottom: 1rpx solid #fafafa;
+   font-size: 24rpx;
+   color:#000;
+   line-height: 60rpx;
+   text-align: center;
+ }
+ .pop>.moble{
+   z-index: -1;
+   position:fixed;
+   top: 0;
+   left:0;
+   bottom: 0;
+   right: 0;
+ }

@@ -1,0 +1,59 @@
+<view class="header">
+  <image src="/pages/img/1.png"></image>
+  <view class='text'>
+    <text class='name'>月色染</text>
+    <text class='status {{false? "red":"green"}}'>制作中</text>
+    <view class='cont'>
+      <view>生产单号 12334567</view>
+      <view>制作工序 缝线</view>
+      <view>接单时间 2019-03-14</view>
+    </view>
+  </view>
+</view>
+<view class='title'>实时进度</view>
+<view class='body'>
+<!-- 进度条 -->
+  <view class='tu'>
+    <view class='sline slone {{true?"slinegreen":"slinered"}}'></view>
+    <view class='cir cone'><view class='circle circleo '></view></view>
+    <view class='sline sltwo {{true?"slinegreen":"slinered"}}'></view>
+    <view class='cir ctwo'><view class='circle circle1 '></view></view>
+    <view class='line lthree'></view>
+    <view class='cir cthree'><view class='circle circle2 '></view></view>
+    <view class='line lfour'></view>
+    <view class='cir cfour'><view class='circle circle0 '></view></view>
+    <view class='line lfive'></view>
+    <view class='cir cfive'><view class='circle circle0'></view></view>
+    <view class='line lsix'></view>
+    <view class='cir csix'><view class='circle circle0 '></view></view>
+  </view>
+  <view class='content'>
+    <view class='pro'>制作完成</view>
+    <view class='process ctwo {{false? "red":"green"}}'>
+      <text>缝线</text><text wx:if='{{false}}' class='yc red'>异常：库存不足</text>
+      <view>2019-03012 12:45:35 王小二</view>
+    </view>
+    <view class='process cthree'>
+      <text>刺绣</text><text  wx:if='{{false}}' class='yc red'>异常：库存不足</text>
+      <view>2019-03012 12:45:35 王小二</view>
+    </view>
+    <view class='process cfour'>
+      <text>手绘</text><text  wx:if='{{false}}' class='yc red'>异常：库存不足</text>
+      <view>2019-03012 12:45:35 王小二</view>
+    </view>
+    <view class='process cfive'>
+      <text>打版</text><text  wx:if='{{false}}' class='yc red'>异常：库存不足</text>
+      <view>2019-03012 12:45:35 王小二</view>
+    </view>
+    <view class='process csix'>
+      <text>接受订单</text><text  wx:if='{{false}}'>异常：库存不足</text>
+      <view>2019-03012 12:45:35 王小二</view>
+    </view>
+  </view>
+</view>
+<view class='button'>
+  <!-- <button class='accepy'>接 单</button> -->
+  <button class='carry'>完 成</button>
+  <button class='errer'>报告异常</button>
+</view>
+<return/>

@@ -1,0 +1,62 @@
+<view class="header">
+    <view class="one">5674.21</view>
+    <view class="two">二月工资总额(元)</view>
+    <view class="foot">
+        <view>
+            <view>2562.21</view>
+            <view>计件</view>
+        </view>
+        <view>
+            <view>2000.12</view>
+            <view>提成</view>
+        </view>
+        <view>
+            <view>1000</view>
+            <view>奖金</view>
+        </view>
+    </view>
+</view>
+  <view class="body">
+      <view class="title">
+          <text>2月工资明细</text>
+      </view>
+      <view class="content">
+          <view class="li">
+              <text class="left">底薪</text>
+              <view class="right">
+                  2345.34
+              </view>
+          </view>
+          <view class="li">
+              <text class="left">计件</text>
+              <view class="right">
+                  2345.34
+              </view>
+          </view>
+                    <view class="li">
+              <text class="left">提成1</text>
+              <view class="right">2345.34</view>
+          </view>
+                    <view class="li">
+              <text class="left">提成2</text>
+              <view class="right">2345.34</view>
+          </view>
+                    <view class="li">
+              <text class="left">奖金</text>
+              <view class="right">2345.34</view>
+          </view>
+                    <view class="li">
+              <text class="left">饭补</text>
+              <view class="right">2345.34</view>
+          </view>
+          <view class="li">
+              <text class="left">饭补</text>
+              <view class="right">2345.34</view>
+          </view>
+          <view class="li">
+              <text class="left">饭补</text>
+              <view class="right">2345.34</view>
+          </view>
+      </view>
+  </view>
+  <return/>

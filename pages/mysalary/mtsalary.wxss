@@ -1,0 +1,121 @@
+page{
+    background: rgb(250, 250, 250)
+}
+.header{
+    padding-top:60rpx;
+    width: 690rpx;
+    /* height: 300rpx; */
+    border-radius:20rpx;
+    margin: 40rpx auto 0;
+    background: #ffffff;
+    text-align: center;
+}
+.one{
+    font-weight: bold;
+    color: #3fc069;
+    font-size: 45rpx;
+    line-height: 45rpx;
+    /* font-family: DIN Condensed; */
+}
+.two{
+    /* margin-top:-10rpx; */
+    font-size: 20rpx;
+    line-height: 20rpx;
+    color: #666;
+}
+.foot{
+    font-size:22rpx;
+    line-height: 22rpx;
+    margin-top:60rpx;
+    display: flex;
+}
+.foot>view{
+    width: 230rpx;
+}
+.foot >view :first-child{
+       /* font-family: DIN Condensed; */
+    margin-bottom: 5rpx;
+}
+.foot >view :last-child{
+    color: #666;
+    margin-bottom: 60rpx;
+}
+.body{
+  
+  margin-bottom: 30rpx;
+}
+ .body .title{
+    position:relative;
+    width: 690rpx;
+    margin: 40rpx auto 20rpx auto;
+    color: #666;
+    font-size: 22rpx;
+ }
+ .title>text{
+     margin-left:30rpx;
+ }
+ .title .time{
+    float: right;
+    border-radius: 20rpx;
+    height:35rpx;
+    width: 120rpx;
+    background:#fff;
+    color:#000;
+    text-align: center;
+    line-height: 35rpx
+ }
+ .pop{
+   border: 1rpx solid #fafafa;
+   z-index: 100;
+   position: absolute;
+   right: 0rpx;
+   border-radius: 20rpx;
+   width: 200rpx;
+   background: #fff;
+ }
+ .pop>view{
+   border-bottom: 1rpx solid #fafafa;
+   font-size: 24rpx;
+   color:#000;
+   line-height: 60rpx;
+   text-align: center;
+ }
+ .pop>.moble{
+   z-index: -1;
+   position:fixed;
+   top: 0;
+   left:0;
+    bottom: 0;
+    right: 0;
+ }
+ .title image{
+    width: 22rpx;
+    height: 14rpx;
+ }
+ .content{
+    background:#fff;
+    border-radius: 20rpx;
+    width: 690rpx;
+    margin: 0 auto;
+ }
+ .li{
+    font-size: 26rpx;
+    line-height: 120rpx;
+    height: 120rpx;
+    margin: 0 30rpx;
+    border-top:1rpx solid #fafafa;
+ }
+.li .right{
+    float: right;
+}
+.li image{
+    position: relative;
+    top:-4rpx;
+    margin-left:10rpx; 
+    width: 30rpx;
+    height: 12rpx;
+}
+.li .right{
+    /* font-family: DIN Condensed; */
+    font-weight: bold;
+}

@@ -1,0 +1,60 @@
+/**index.wxss**/
+page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: rgb(250, 250, 250)
+}
+.nav-tabs {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+.tab-list {
+  border-top: 1rpx rgb(230, 230, 230) solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  background: #fff;
+  height: 110rpx;
+}
+.tab-text {
+  text-align:center;
+  font-size: 22rpx;
+  line-height:45rpx;
+}
+.iconPath {
+  width:48rpx;
+  height: 48rpx;
+}
+.tab-content {
+  flex: 1;
+}
+.default {
+  flex: 1;
+  font-weight: bold;
+}
+.default>text{
+  color: #000;
+}
+.active>text{
+  color: #3fc069;
+}
+.active {
+  flex: 1;
+  font-weight: bold;
+}
+
+.show {
+  display: block;
+  flex: 1;
+}
+
+.hidden {
+  display: none;
+  flex: 1;
+}
+.linkCon{
+  padding-bottom:68rpx;
+}
